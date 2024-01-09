@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Roboto+Slab:wght@200;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Open+Sans:wght@300&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bungee Inline', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.footer img {
+  float: left;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  background-color: #042350;
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  font-family: 'Bungee Inline', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header header header header' 
+    'left middle middle middle middle right right right right' 
+    'footer footer footer footer footer footer footer footer footer';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+
+.left,
+.middle,
+.right {
+  padding: 20px;
+  height: 1000px; /* Should be removed. Only for demonstration */
+}
+
+
+/* Style the left column */
+.left {
+  grid-area: left;
+font-family: 'Open Sans', sans-serif;
+color: white;
+}
+.left a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Bungee Inline', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+  font-family: 'Bungee Inline', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+.middle a {
+  color: #01256F;
+  text-decoration: none;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+  font-family: 'Bungee Inline', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  background-color: #042350;
+  padding: 10px;
+  text-align: center;
+}
+.footer p {
+  color: white;
+  
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer'
+  }
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="grid-container">
+  <div class="header">
+    <img src="images/Logo.png" alt="Logo" width="100" height="90"> 
+    <h4> Walpole High School </h4>
+    <h5> Foreign Language </h5>
+  </div>
+  
+  <div class="left" style="background-color:#F65C02;">
+    <h2> Resources </h2>
+    <a href="https://www.walpole.k12.ma.us/o/whs"> Walpole High School </a>
+    <br> <br> 
+    <a href="https://sites.google.com/walpole.k12.ma.us/whs-foreign-language/staff"> Staff </a>
+    <br> <br> 
+    <a href="https://sites.google.com/walpole.k12.ma.us/whs-foreign-language/course-offerings"> Course Offering </a>
+  </div>
+
+  <div class="middle" style="background-color:white;">
+    <p> Walpole High School offers many foreign language classes to its students to learn more about the language and culture of foreign countries. Learning another language can allow one to communicate with people around the world, and will also expose one to different cultures, beliefs, and customs.</p>
+    <h2> Why Study?</h2>
+    <ul>
+      <li> Foreign language study creates more positive attitudes and less prejudice toward people who are different. </li>
+      <li>Studying a foreign language will improve your chances of getting a job.</li>
+      <li>Studying a new culture helps you meet new and interesting people.</li>
+      <li>Dealing with another culture enables people to gain a more profound understanding of their own culture.</li>
+      <li>The study of foreign languages boots confidence.</li>
+      <li>Graduates often cite foreign language courses as some of the most valuable courses in college because of the communication skills developed in the process.</li>
+      <li>International travel is made easier and more pleasant through knowing a foreign language.</li>
+      <li>Skills like problem solving, dealing with abstract concepts, are increased when you study a foreign language.</li>
+      <li>Foreign language study enhances one’s opportunities in government, business, medicine, law, technology, military, industry, marketing, etc.</li>
+      <li>A second language improves your skills and grades in math and English and on the SAT and GRE.</li>
+      <li>Analytical skills improve when students study a foreign language.</li>
+      <li>Foreign languages provide a competitive edge in career choices: one is able to communicate in a second language.</li>
+      <li>Foreign language study enhances listening skills and memory.</li>
+      <li>One participates more effectively and responsibly in a multi-cultural world if one knows another language.</li>
+      <li> Your marketable skills in the global economy are improved if you master another language.</li>
+      <li>Foreign language study offers a sense of the past: culturally and linguistically.</li>
+      <li>The study of a foreign tongue improves the knowledge of one’s own language: English vocabulary skills increase.</li>
+      <li>The study of foreign languages teaches and encourages respect for other peoples: it fosters an understanding of the interrelation of language and human nature.</li>
+      <li>Foreign languages expand one’s view of the world, liberalize one’s experiences, and make one more flexible and tolerant.</li>
+      <li>Foreign languages expand one’s world view and limit the barriers between people: barriers cause distrust and fear.</li>
+      <li>Foreign language study will completely chance your traveling experience.</li>
+      <li>As immigration increases we need to prepare for changes in the American society.</li>
+      <li>One is at a distinct advantage in the global market if one is as bilingual as possible.</li>
+      <li>Foreign languages open the door to art, music, dance, fashion, cuisine, film, philosophy, science…</li>
+      <li>Foreign language study is simply part of a very basic liberal education: to “educate” is to lead out, to lead out of confinement and narrowness and darkness.</li>
+    </ul>
+
+    <a href="https://www.globalcitizen.org/en/content/7-benefits-of-learning-another-language/"> Why Study A Language </a>
+  </div>  
+
+
+
+  <div class="right" style="background-color:white;">
+    <img src="images/Espanol.jpg" alt="Spanish" height="300px" width="400px"> 
+    <br>
+    <img src="images/French.jpg" alt="France" height="300px" width="400px"> 
+    <br>
+    <img src="images/Greek.jpg" alt="Greek" height="300px" width="400px">
+  </div>
+
+    <div class="footer">
+        <img src="images/Timberwolves.png" alt="Timberwolves" width="170" height="170" >
+        <p>Walpole High School</p>
+        <p>275 Common Street</p>
+        <p>Walpole, MA 02081</p>
+        <p>Phone: (508) 660-7257</p>
+        <p>Fax: (508) 850-7958</p> 
+     
+
+    </div>
+
+  
+
+</body>
+</html>
+
+
